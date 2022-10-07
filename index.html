@@ -4,114 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>photo gallery</title>
 </head>
 <body>
+    
  <header id="top">
-    <h1> TK Photography</h1>
+    <h1>TK PHOTOGRAPHY</h1>
     <nav>
     <h2>Main Navigation</h2>
      <ol>
         <li><a href="#">About</a></li>
         <li><a href="#">Gallery</a></li>
         <li><a href="#">Contact</a></li>
-        <li><a href="#top">^ top</a></li>
+        <li><a href="#top">^<br>Top</a></li>
     </ol>
     </nav>
 </header>
 <main>
 <section>
-    <h2>About</h2>
-        <img src="TK.png" alt="TK">
-        <p>Hello!
+    <h2 class="about">ABOUT</h2>
+        <img src="TK.png" alt="TK" class="image">
+        <p class="p">Hello!
         <br>I'm TK and I'm a photographer.
-        <br>I love looking at life through the lens of my
-        camera.
+        <br>I love looking at life through the lens of my camera.
         <br>Landscape photography is my speciality and it's taken me all over the world.</p>
 </section>
 <section>
-    <h2>Gallery</h2>
-    <p>Here are some highlights of my work. 
+    <h2 class="gallery">GALLERY</h2>
+    <p class="highlights">Here are some highlights of my work. 
     The locations and year are in the caption.</p>
-    <figure>
+    <figure class="column">
         <img src="Chile.png" alt="Chile">
-        <figcaption>Chile, 2001</figcaption>
+        <figcaption class="above">Chile, 2001</figcaption>
     </figure>
-    <figure>
+    <figure class="column">
         <img src="Guatemala.png" alt=" Guatemala">
-        <figcaption>Guatemala, 1997</figcaption>
+        <figcaption class="above white">Guatemala, 1997</figcaption>
     </figure>
-    <figure>
+    <figure class="column">
         <img src="Hawaii.png" alt="Hawaii">
-        <figcaption>Hawaii, 2010</figcaption>
+        <figcaption class="bottom white">Hawaii, 2010</figcaption>
     </figure>
         
-    <figure>
+    <figure class="iran">
         <img src="Iran.png" alt="Iran">
-        <figcaption>Iran, 1999</figcaption>
+        <figcaption class="ir">Iran, 1999</figcaption>
     </figure>
         
-    <figure>
+    <figure class="img">
         <img src="Ireland.png" alt="Ireland">
-        <figcaption>Ireland, 2012</figcaption>
+        <figcaption class="bottom">Ireland, 2012</figcaption>
     </figure>
         
-    <figure>
+    <figure class="img">
         <img src="Italy.png" alt="Italy">
-        <figcaption>Italy, 2015</figcaption>
+        <figcaption class="left">Italy, 2015</figcaption>
     </figure>
         
-    <figure>
+    <figure class="main">
         <img src="Moab-Desert.png" alt="Moab-Desert">
-        <figcaption>Moab Desert, 2020</figcaption>
+        <figcaption class="bottom white">Moab Desert, 2020</figcaption>
     </figure>
         
-    <figure>
+    <figure class="main">
         <img src="Rocky-Mountains.png" alt="Rocky-Mountains">
-        <figcaption>Rocky Mountains, 2009</figcaption>
+        <figcaption class="above">Rocky Mountains, 2009</figcaption>
     </figure>
         
-    <figure>
+    <figure class="main">
         <img src="Switzerland.png" alt="Switzerland">
-        <figcaption>Switzerland, 2014</figcaption>
+        <figcaption class="left">Switzerland, 2014</figcaption>
     </figure>
         
-    <figure>
+    <figure class="first">
         <img src="UK.png" alt="UK">
-        <figcaption>UK, 2005</figcaption>
+        <figcaption class="bottom">UK, 2005</figcaption>
     </figure>
         
-    <figure>
+    <figure class="last">
         <img src="USA.png" alt="USA">
-        <figcaption>USA, 2021</figcaption>
+        <figcaption class="above">USA, 2021</figcaption>
     </figure>
         
-    <figure>
+    <figure class="last">
         <img src="Wyoming.png" alt="Wyoming">
-        <figcaption>Wyoming, 2021</figcaption>
+        <figcaption class="above">Wyoming, 2021</figcaption>
     </figure>
 </section>
+</main>
 
-    
-    <section>
+    <section class="contact">
     <h2>Contact</h2>
     <p>Please fill out this form and I'll connect with you soon.</p>
     </section>
     <section>
     <H3>Your contact information</H3>
     <Label for="fullName">Name</Label> 
-    <input type="text" name="fullName" id="fullName" placeholder="Your Full Name">
+    <input type="text" name="fullName" id="fullName" placeholder="Your Full Name" class="info">
 
     <label for="myEmail">Email</label> 
-    <input type="text" name="myEmail" id="myEmail" placeholder="Enter Your Email Address">
+    <input type="text" name="myEmail" id="myEmail" placeholder="Enter Your Email Address" class="info">
 
     <label for="myMessage">Message</label>
-    <input type="text" name="myMessage" id="myMessage" placeholder="What Can I Help You With?">
+    <input type="text" name="myMessage" id="myMessage" placeholder="What Can I Help You With?" class="info">
 
-    <input type="submit" id="mySubmit" value="Submit">
+    <input type="submit" id="mySubmit" value="Submit" class="submit">
     </section>
     
-</main>
 
 <footer>
     <small>Copyright 2021 TK Photography</small>
